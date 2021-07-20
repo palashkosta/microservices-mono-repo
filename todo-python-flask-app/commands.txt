@@ -1,0 +1,12 @@
+## Removing image and container
+$ docker image rm id
+$ docker rm id
+
+## Docker compose up and down
+$ docker compose up
+$ docker compose down
+
+## Flask-Migrate Mysql
+$ flask db init
+$ flask db migrate -m "Initial migration."
+$ flask db upgrade

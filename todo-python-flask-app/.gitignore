@@ -1,0 +1,5 @@
+# exclude everything
+.dbdata/*
+
+# exception to the rule
+!.dbdata/.gitkeep
